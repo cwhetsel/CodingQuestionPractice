@@ -14,7 +14,7 @@ import java.util.Objects;
  * 9/21/17 
  * Complexity O(1)
  * 
- * 
+ * NOTE: see the python solution for a more complete answer. This only extends the line segments and finds the intersection of the two lines not the segments. 
  * Basic algebra. Equation for a line is y = mx + b where m is the change dx/dy and b is the x intercept. 
  * If you have two line equations, you can find the x value they intercept at by (b2-b1)/(m1-m2). 
  * Then plug that value into one of the equations to get the y value. 
